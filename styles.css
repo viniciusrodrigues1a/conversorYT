@@ -1,0 +1,131 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    background-image: url(Group\ 1.svg);
+    background-repeat: no-repeat;
+    
+    background-position: bottom;
+    font-family: 'Roboto', sans-serif;
+    
+    
+   
+    
+
+    
+}
+footer #converter
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #0F8BFE;
+    border-radius: 5px;
+    width: 243px;
+    height: 55px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    font-family: 'Circular Std';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+#allContent{
+    
+    
+}
+#allContent main h1{
+    width: 100%;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    color: #0F8BFE;
+
+}
+#allContent main {
+    
+    text-align: center;
+    width: 100vw;
+    margin: 0 auto;
+
+}
+#allContent main #conversorDoLink{
+    width: 50%;
+    height: 35px;
+    display: flex;
+    justify-items: center;
+     margin: 0 auto;
+     margin-top: 60px;
+
+}
+#allContent main input{
+    border: 2px solid rgba(0,0,0,0.3);
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    outline: none;
+   
+    
+    
+    
+    
+}
+footer{
+    margin: 0 auto;
+
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    
+    width: 50%;
+    align-items: center;
+
+
+}
+#conversores{
+    display: flex;
+}
+#mp3{
+    padding: 2.5px;
+    display: flex;
+    width: 77px;
+    height: 77px;
+    box-sizing: border-box;
+    
+
+
+
+
+}
+#mp3.ativado{
+    border: 1px solid black;
+
+}
+#mp4{
+    padding: 2.5px;
+    display: flex;
+    width: 77px;
+    height: 77px;
+    box-sizing: border-box;
+    
+
+
+
+
+}
+#mp4.ativado{
+    border: 1px solid black;
+
+}
