@@ -97,7 +97,7 @@ footer{
 #conversores{
     display: flex;
 }
-#mp3{
+#mp3, #mp4{
     padding: 2.5px;
     display: flex;
     width: 77px;
@@ -109,23 +109,9 @@ footer{
 
 
 }
-#mp3.ativado{
+#mp3.ativado, #mp4.ativado{
     border: 1px solid black;
 
 }
-#mp4{
-    padding: 2.5px;
-    display: flex;
-    width: 77px;
-    height: 77px;
-    box-sizing: border-box;
-    
 
 
-
-
-}
-#mp4.ativado{
-    border: 1px solid black;
-
-}
