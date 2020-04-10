@@ -1,54 +1,22 @@
-html, body {
-  min-height: 100%;
-}
-
-body {
-  margin: 0 auto;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  background-image: url(background-body.svg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-*:focus {
-  outline: none;
-  box-shadow: 0 0 1px 2px #0053a0;
-}
-
-button {
-  cursor: pointer;
-}
-
-button:focus {
-  box-shadow: 0 0 1px 2px #000;
-}
-
 main {
   display: flex;
   flex-direction: column;
 }
 
 main h1 {
-  font-family: Helvetica;
   font-style: normal;
   font-weight: 500;
   font-size: 50px;
   color: #0F8BFE;
+  margin-bottom: 0;
 }
 
 main > img {
   align-self: center;
+  margin: 45px 0;
 }
 
 #conversorDoLink {
-  margin-top: 60px;
   padding: 20px;
   border-radius: 20px;
   border: 2px solid rgba(0, 0, 0, 0.3);
@@ -65,16 +33,20 @@ main button {
   background: none;
 }
 
-main > div > button {
+#converter {
   align-self: center;
 
   color: #FFFFFF;
   background: #0F8BFE;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 500;
-  font-family: 'Circular Std';
   padding: 16px 40px;
+  font-weight: bold;
+}
+
+#converter:hover {
+  background: #017df1;
 }
 
 #conversores button {
