@@ -1,31 +1,35 @@
-<! DOCTYPE HTML>
-<html>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    </head>
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="description"
+      content="Converta vídeos do YouTube para MP4 ou MP3!"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <title>Conversor de vídeos do YouTube</title>
+  </head>
 <body>
 
-<section id ="allContent">
-    <main>
+  <main>
     <h1>Converta seus vídeos aqui!</h1>
-    <img src="Vector.png"
-        alt="Converta a baixo"
-    > <div id="conversorDoLink">
-    <input type="link" name="link">
-        </div>
-</main> 
-    <footer>
-        <a href="#" id="converter">CONVERTER</a>
-        <div id="conversores">
-        <a href="#" id="mp3" onclick="onOff()"><img src="MP3.svg"
-        alt="Converter para MP3"></img></a>
-        <a href="#" id="mp4" onclick="onOff()"><img src="MP4.svg"
-            alt="Converter para MP4"></a>
-            </div>
-    </footer></section>
-    <script src="scripts.js"></script>
-   
-    
+    <img src="Vector.png" alt="Converte abaixo" />
+    <input type="text" id="conversorDoLink" placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+
+    <div>
+      <button id="converter">CONVERTER</button>
+
+      <div id="conversores">
+        <button>
+          <img src="MP3.svg" id="mp3" alt="Converter para MP3" />
+        </button>
+        <button>
+          <img src="MP4.svg" id="mp4" alt="Converter para MP4" />
+        </button>
+      </div>
+    </div>
+  </main> 
 </body>
 </html>
